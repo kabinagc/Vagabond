@@ -1,0 +1,468 @@
+html,body,ul,h1,h2,h3,h4,h5,h6{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+/* Wrapper */
+
+.wrapper{
+    width: 100%;
+    background: #fff;
+}
+
+/* Wrapper Ends */
+
+
+/* Header */
+.wrapper .header{
+    width: 100%;
+    min-height: 40px;
+    background: #1b1b1c;
+    padding: 0.7% 8%;
+    color: #f5f5f6;
+}
+
+.wrapper .header .header_content{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper .header .header_content .header_yellow{
+    color: #51c7ee;
+}
+
+.wrapper .header .header_content .header_button{
+    background: #3db3ea;
+    border: 0;
+    border-radius: 25px;
+    padding: 5px 20px;
+}
+
+.wrapper .header .header_content .header_login{
+    padding-top: 1px!important;
+}
+
+
+.wrapper .header .header_content li{
+    display: inline;
+}
+
+.wrapper .header .header_content .header_left{
+    float: left;
+    padding: 0 5%;
+}
+
+.wrapper .header .header_content .header_right{
+    float: right;
+    padding: 0 1%;
+}
+
+/* NAvbar */
+.nav{
+    width: 100%;
+    height: 100px;
+    background: inherit;
+}
+
+.nav .logo{
+    width: 30%;
+    float: left;
+    height: 100%;
+}
+
+.nav .logo img{
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.nav .nav_bar{
+    width: 70%;
+    float: right;
+    height: 100%;
+}
+
+.nav .nav_bar .navbar{
+    width: 100%;
+    height: 100%;
+    padding: 5% 5% 0% 15%;
+}
+.nav .nav_bar .navbar li{
+    display: inline;
+    margin: 0% 2%;
+}
+
+.nav .nav_bar .navbar li a{
+    text-decoration: none;
+    color: #0b98ea;
+}
+
+.nav .nav_bar .navbar li a:hover{
+    color: #0d1010;
+}
+
+/* ended navbar */
+
+.wrapper .slider{
+    width: 100%;
+    height: 575px;
+    background: url(../images/2290955.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Counter */
+.counter{
+    width: 100%;
+    height: 180px;
+    background: #232d30;
+    display: flex;
+    padding: 5% 5% 0% 5%;
+    text-align: center;
+
+}
+
+.counter div{
+    width: 20%;
+    margin: 0 5%;
+}
+
+.counter div h1{
+    color: #68c0f3;
+}
+
+.counter div p{
+    color: #fff;
+}
+.popular {
+    width: 100%;
+    height: 500px;
+    background: inherit;
+    padding: 5% 10%;
+    display: flex; /* add display flex */
+    align-items: flex-start; /* align items to the top */
+  }
+  
+  .popular h2 {
+    text-align: center; /* change to h2 */
+    font-size: 32px;
+    font-weight: bolder;
+    text-transform: uppercase;
+  }
+  
+  .popular hr {
+    border-color: #1289c4;
+  }
+  
+  .popular > div {
+    display: flex; /* change to flex */
+    flex-direction: column; /* add flex direction column */
+    justify-content: space-between; /* add justify content space between */
+    width: 25%;
+    margin: 2.5%;
+    background: inherit;
+  }
+  
+  .popular > div .destination-top {
+    background: #f6f6f6; /* change to destination-top */
+    width: 100%;
+    height: 60%;
+  }
+  
+  .popular > div .destination-bottom {
+    background: #fff; /* change to destination-bottom */
+    width: 100%;
+    height: 20%; /* change height to 40% */
+    padding: 2% 0;
+  }
+  
+  .popular > div .destination-bottom h3 {
+    text-align: center; /* change to h3 */
+    font-weight: bolder;
+  }
+  
+  .popular > div .destination-bottom p {
+    text-align: justify;
+    font-size: 14px; /* increase font size */
+  }
+  
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
+  .destination-top {
+    height: 100%; /* change height to 100% */
+    width: 100%; /* add width 100% */
+  }
+  
+/* popular ends */
+.subscribe{
+    width: 100;
+    height: 250px;
+    background: #626262;
+    color: #fff;
+    padding: 2.5% 0;
+}
+
+.subscribe .sub_text{
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.subscribe .sub_form{
+    padding-left: 5%;
+    width: 40%;
+    margin: 0 auto;
+}
+
+.subscribe .sub_form form{
+    width: 100%;
+    height: 60%;
+
+}
+
+.subscribe .sub_form form input[type=text]{
+    padding: 2% 4%;
+    width: 250px;
+    border-radius: 25px;
+    border: 0;
+
+}
+
+.subscribe .sub_form form input[type=submit]{
+    padding: 2% 4%;
+    width: 150px;
+    border-radius: 25px;
+    border: 0;
+    background: #34ccf2;
+}
+
+/* Sign up start and End */
+.signup{
+    width: 100%;
+    height: 200px;
+    background: #76dde2;
+}
+
+.signup .sign_left{
+   width: 60%;
+   height: 100%;
+   display: inline-block; 
+   padding: 5% 0 0 10%;
+}
+
+.signup .sign_left p{
+    color: #000;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+.signup .sign_right{
+    width: 30%;
+    height: 100%;
+    float: right;
+    padding-top: 6%;
+    
+}
+
+.signup .sign_right button{
+    padding: 10px 40px;
+    background: #000;
+    color: #fff;
+    border: 0;
+    border-radius: 25px;
+    margin: 0;
+
+}
+
+/* footer starts and Ends */
+.footer{
+    width: 100%;
+    height: 350px;
+    background: #333;
+    display: flex;
+    padding: 4% 5%;
+}
+
+.footer div{
+    width: 18%;
+    height: 100%;
+    margin: 0 2.5%;
+}
+
+.footer div h4{
+    color: #fff;
+    font-size:14px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.footer div ul, .footer div p{
+    color: #8A8A8A;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer div ul li{
+    margin-bottom: 4%;
+    text-align: justify;
+}
+
+/* Footer Ends */
+
+/* Copyright Starts */
+    .copyright{
+        width: 100%;
+        height: 80px;
+        background: #222222;
+        text-align: center;
+        padding: 1% 0;
+    }
+
+    .copyright p{
+        color: #8A8A8A;
+    }
+
+/* media queireres starts */
+
+@media (max-width:660){
+
+.wrapper .header .header_content li,
+.wrapper .header .header_content .header_button,
+.wrapper .header .header_content .header_login,
+.wrapper .header .header_content .header_right,
+.wrapper .header .header_content .header_left{
+    display: block!important;
+    float: none;
+    margin: 2% auto;
+    }
+
+
+.wrapper .header .header_content .header_button{
+    width: 100%;
+}
+.wrapper .header .header_content .header_login{
+    text-align: center;
+}
+    
+
+.nav{
+    height: auto;
+}
+
+
+.nav .logo{
+    width: 100%;
+    float: none;
+    height: 40px;
+}
+
+.nav .logo img{
+    display: block;
+    margin: 0 auto;
+}
+
+.nav .nav_bar{
+    width: 100%;
+    height: auto;
+    background: #333;
+    padding-bottom: 2%;
+}
+
+.nav .nav_bar .navbar li{
+     display: block;
+}
+
+.wrapper .slidder{
+     height: 400px;
+}
+.counter{
+    height: auto;
+    display: block;
+    padding: 5% 0%;
+}
+
+.counter div{
+    width: 100%;
+    display: block;
+}
+
+.popular{
+    height: auto;
+}
+
+
+.popular>div{
+    width: 100%;
+    display: block;
+}
+.popular>div .top,.popular>div .bottom{
+    width: 100%;
+    height: auto;
+}
+.subscribe{
+    height: auto;
+}
+
+.subscribe .sub_text{
+    width: 80%;
+}
+
+.subscribe .sub_form{
+    width: 80%;
+}
+
+
+.subscribe .sub_form form input[type=submit]{
+    width: 75px;
+    display: block;
+    margin: 2% auto;
+}
+
+.signup{
+    height: auto;
+    display: block;
+}
+
+
+.signup .sign_left,.signup .sign_right{
+    width: 100%;
+    height: auto;
+    float: none;
+    display: block;
+    padding: 2%;
+}
+
+.signup .sign_left p{
+    text-align: center;
+}
+
+.signup .sign_right button{
+    display: block;
+    margin: 0 auto;
+}
+
+.footer{
+    height: auto;
+    display: block;
+}
+
+
+.footer div{
+    width: 100%;
+    display: block;
+    height: auto;
+    padding: 3%;
+}
+
+}
