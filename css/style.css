@@ -146,12 +146,12 @@ html,body,ul,h1,h2,h3,h4,h5,h6{
     height: 500px;
     background: inherit;
     padding: 5% 10%;
-    display: flex; /* add display flex */
+    display: flex; /* added display flex */
     align-items: flex-start; /* align items to the top */
   }
   
   .popular h2 {
-    text-align: center; /* change to h2 */
+    text-align: center; 
     font-size: 32px;
     font-weight: bolder;
     text-transform: uppercase;
@@ -162,29 +162,29 @@ html,body,ul,h1,h2,h3,h4,h5,h6{
   }
   
   .popular > div {
-    display: flex; /* change to flex */
-    flex-direction: column; /* add flex direction column */
-    justify-content: space-between; /* add justify content space between */
+    display: flex; /* flex */
+    flex-direction: column; /*  flex direction column */
+    justify-content: space-between; /* justify content space between */
     width: 25%;
     margin: 2.5%;
     background: inherit;
   }
   
   .popular > div .destination-top {
-    background: #f6f6f6; /* change to destination-top */
+    background: #f6f6f6; /*  destination-top */
     width: 100%;
     height: 60%;
   }
   
   .popular > div .destination-bottom {
-    background: #fff; /* change to destination-bottom */
+    background: #fff; /* destination-bottom */
     width: 100%;
-    height: 20%; /* change height to 40% */
+    height: 20%; /* can be change height to 40% */
     padding: 2% 0;
   }
   
   .popular > div .destination-bottom h3 {
-    text-align: center; /* change to h3 */
+    text-align: center; 
     font-weight: bolder;
   }
   
@@ -199,8 +199,8 @@ html,body,ul,h1,h2,h3,h4,h5,h6{
   }
   
   .destination-top {
-    height: 100%; /* change height to 100% */
-    width: 100%; /* add width 100% */
+    height: 100%; 
+    width: 100%; 
   }
   
 /* popular ends */
